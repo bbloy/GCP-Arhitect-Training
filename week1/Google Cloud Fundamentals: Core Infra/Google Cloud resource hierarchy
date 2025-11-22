@@ -1,4 +1,13 @@
 1.Organization
 2.Folders
 3.Projects
+Google Cloud’s Resource Manager tool is designed to programmatically help you manage projects.
+It’s an API that can gather a list of all the projects associated with an account, create new projects, update existing projects, and delete projects.
+It can even recover projects that were previously deleted,and can be accessed through the RPC API and the REST API. 
 4.Resources
+
+
+POLICIES
+Policies can be defined at the project, folder, and organization node levels.
+Policies are inherited downward.
+This means that if you apply a policy to a folder, it will also apply to all of the projects within that folder. 
